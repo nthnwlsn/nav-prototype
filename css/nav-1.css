@@ -81,8 +81,111 @@ nav.nav-2{
 }
 
 .block-2 nav.nav-2 a{
+  margin: 0.5em;
+  font-size: 1.25rem;
+  color: #333745;
+  position: relative;
+  background-color: #fff;
+  padding: 0.8em;
+  border-radius: 0.25em;
+  -webkit-transition: color 0.50s ease-out;
+  -moz-transition: color 0.50s ease-out;
+  -o-transition: color 0.50s ease-out;
+  transition: color 0.50s ease-out;
+  -webkit-transition: background-color 0.50s ease-out;
+  -moz-transition: background-color 0.50s ease-out;
+  -o-transition: background-color 0.50s ease-out;
+  transition: background-color 0.50s ease-out;
+}
+
+nav.nav-2 a:hover{
+  background-color: #333745;
+  color: white;
+}
+/* nav-3 styles */
+
+nav.nav-3{
+  width: 100%;
+  text-align: center;
+}
+
+.block-3 nav.nav-3 a{
+  margin: 0.5em;
+  font-size: 1.25rem;
+  color: #333745;
+  position: relative;
+  border: 2px solid #333745;
+  padding: 0.8em;
+  border-radius: 0.25em;
+  -webkit-transition: color 0.50s ease-out;
+  -moz-transition: color 0.50s ease-out;
+  -o-transition: color 0.50s ease-out;
+  transition: color 0.50s ease-out;
+  -webkit-transition: background-color 0.50s ease-out;
+  -moz-transition: background-color 0.50s ease-out;
+  -o-transition: background-color 0.50s ease-out;
+  transition: background-color 0.50s ease-out;
+}
+
+nav.nav-3 a:hover{
+  background-color: #333745;
+  color: white;
+}
+
+/* nav-4 styles */
+
+nav.nav-4{
+  width: 100%;
+  text-align: center;
+}
+
+.block-4 nav.nav-4 a{
   padding: 0.5em;
   font-size: 1.25rem;
-  color: #fff;
+  color: #333745;
+  display: inline-block;
+}
+
+nav.nav-4 a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #333745;
+    transition: width .3s;
+    margin-top: 0.5em;
+}
+
+nav.nav-4 a:hover::after {
+    width: 100%;
+}
+
+/* nav-5 styles */
+
+nav.nav-5{
+  width: 100%;
+  text-align: center;
+}
+
+.block-5 nav.nav-5 a{
+  margin: 0.5em;
+  font-size: 1.25rem;
+  color: #87B28F;
   position: relative;
+  background-color: #c7efcf;
+  border: 2px solid #87B28F;
+  padding: 0.8em;
+  -webkit-transition: color 0.50s ease-out;
+  -moz-transition: color 0.50s ease-out;
+  -o-transition: color 0.50s ease-out;
+  transition: color 0.50s ease-out;
+  -webkit-transition: border-radius 0.25s ease-out;
+  -moz-transition: border-radius 0.25s ease-out;
+  -o-transition: border-radius 0.25s ease-out;
+  transition: border-radius 0.25s ease-out;
+  border-radius: 0em;
+}
+
+.block-5 nav.nav-5 a:hover{
+  border-radius: 0.50em;
 }
