@@ -1,2 +1,4 @@
-# nav-prototype
-Experimenting with different types of navigations
+Navigation Exploration
+======================
+
+Exploring different types of navigation styles, old and new styles.
